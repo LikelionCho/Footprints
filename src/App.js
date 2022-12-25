@@ -1,7 +1,6 @@
 import {
   ChakraProvider,
-  StackDivider,
-  Text,
+
 } from "@chakra-ui/react";
 import Hero from "@components/Hero";
 import theme from "./theme";
