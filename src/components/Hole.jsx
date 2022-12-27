@@ -10,10 +10,10 @@ export default function Hole() {
           <Image
             src={hole}
             position={"absolute"}
-            w={200}
+            w={180}
             h={200}
-            right={"1280px"}
-            bottom={"-450px"}
+            right={"1000px"}
+            bottom={"-420px"}
           />
          {/* 발자국가는길 아래 굴 */}
         </Stack>
@@ -23,10 +23,10 @@ export default function Hole() {
             <Image
               src={hole2reverse}
               position={"absolute"}
-              w={450}
-              h={450}
-              left={"400px"}
-              bottom={"-700px"}
+              w={350}
+              h={350}
+              left={"300px"}
+              bottom={"-600px"}
             />
           </Link>
         </Stack>

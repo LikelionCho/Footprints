@@ -10,16 +10,16 @@ export default function Rabbit() {
           position={"absolute"}
           w={650}
           h={450}
-          left={"550px"}
-          bottom={"-710px"}
+          left={"380px"}
+          bottom={"-660px"}
         />
         <Text
           rounded={"full"}
           px={25}
           _hover={{ bg: "yellow.600" }}
           position={"absolute"}
-          right={"1250px"}
-          bottom={"-620px"}
+          right={"930px"}
+          bottom={"-550px"}
         >
           발자국에 편지보내기
         </Text>

@@ -19,8 +19,8 @@ export default function main() {
     <Container
       bgImage={`url(${background})`}
       maxW={"9xl"}
-      h={"1270px"}
-      w={"2500px"}
+      h={"1080px"}
+      w={"1920px"}
       bgPosition={"50% 50%"}
       bgSize={"cover"}
     >

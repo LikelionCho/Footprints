@@ -8,10 +8,10 @@ export default function Petdog() {
           <Image
             src={petdog}
             position={"absolute"}
-            w={350}
-            h={450}
-            left={"1880px"}
-            top={"650px"}
+            w={250}
+            h={350}
+            left={"1550px"}
+            top={"670px"}
           />
         </Stack>
       </Container>

@@ -80,8 +80,8 @@ export default function Board5() {
           position={"absolute"}
           w={150}
           h={150}
-          left={"880px"}
-          top={"500px"}
+          left={"680px"}
+          top={"450px"}
         />
         {/* 발자국 가는길 표지판 */}
         <Link href={"https://www.youtube.com/@balltagu"} target="_blank">
@@ -90,8 +90,8 @@ export default function Board5() {
             px={5}
             _hover={{ bg: "purple.600" }}
             position={"absolute"}
-            left={"885px"}
-            top={"540px"}
+            left={"685px"}
+            top={"490px"}
           >
             발자국 가는 길
           </Text>
@@ -102,10 +102,10 @@ export default function Board5() {
         <Image
           src={board6}
           position={"absolute"}
-          w={775}
-          h={775}
-          right={"280px"}
-          bottom={"-680px"}
+          w={685}
+          h={685}
+          right={"180px"}
+          bottom={"-600px"}
         />
       </Stack>
     </Container>

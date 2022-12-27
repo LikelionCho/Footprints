@@ -10,8 +10,8 @@ export default function Fp2() {
           position={"absolute"}
           w={300}
           h={400}
-          left={"1060px"}
-          bottom={"-750px"}
+          left={"780px"}
+          bottom={"-650px"}
         />
         {/* 걸음걸이 gif */}
       </Stack>

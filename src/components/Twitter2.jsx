@@ -13,8 +13,8 @@ export default function twitter2() {
                 position={"absolute"}
                 w={150}
                 h={150}
-                right={"770px"}
-                top={"130px"}
+                right={"570px"}
+                top={"120px"}
               />
             </div>
             {/* 트위터 새 */}
@@ -26,7 +26,7 @@ export default function twitter2() {
               fontSize={{ base: "3xl", sm: "1xl", md: "1xl" }}
               _hover={{ bg: "yellow.600" }}
               position={"absolute"}
-              right={"920px"}
+              right={"720px"}
               top={"115px"}
             >
               tweeeet!

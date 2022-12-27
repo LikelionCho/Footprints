@@ -10,8 +10,8 @@ export default function Logo() {
             position={"absolute"}
             w={7}
             h={7}
-            left={"1250px"}
-            top={"43px"}
+            left={"953px"}
+            top={"70px"}
           />
           {/* 깃발안 로고 */}
         </Stack>

@@ -10,10 +10,10 @@ export default function Squirrel() {
           <Image
             src={squirrel1}
             position={"absolute"}
-            w={800}
-            h={250}
-            left={"350px"}
-            bottom={"-450px"}
+            w={700}
+            h={200}
+            left={"150px"}
+            bottom={"-400px"}
           />
         </Stack>
         <Stack>
@@ -22,8 +22,8 @@ export default function Squirrel() {
             position={"absolute"}
             w={400}
             h={800}
-            left={"2000px"}
-            top={"300px"}
+            left={"1500px"}
+            top={"200px"}
           />
         </Stack>
     </Container>

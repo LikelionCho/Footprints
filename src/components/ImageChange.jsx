@@ -9,10 +9,10 @@ export default function ImageChange() {
         <Image
           src={jincat}
           position={"absolute"}
-          w={450}
-          h={450}
-          right={"430px"}
-          bottom={"-630px"}
+          w={420}
+          h={420}
+          right={"300px"}
+          bottom={"-570px"}
         />
       </Stack>
     </Container>

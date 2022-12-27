@@ -12,8 +12,8 @@ export default function Entry() {
             bg={"purple.400"}
             _hover={{ bg: "purple.600" }}
             position={"absolute"}
-            right={"1190px"}
-            top={"480px"}
+            right={"900px"}
+            top={"400px"}
           >
             Entry
           </Text>
