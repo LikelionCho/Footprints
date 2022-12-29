@@ -1,4 +1,4 @@
-import { Container, Stack, Image, Text } from "@chakra-ui/react";
+import { Container, Stack, Image, Text, Link } from "@chakra-ui/react";
 import rabbit from "@assets/Rabbit.gif";
 
 export default function Rabbit() {
@@ -13,6 +13,12 @@ export default function Rabbit() {
           left={"380px"}
           bottom={"-660px"}
         />
+        <Link
+          href={
+            "https://www.notion.so/eb5cf54aa96f485b8f20a2b98a087ec1?v=0729cdd64d0e4f9d842236bbff9c0cdb"
+          }
+          target="_blank"
+        >                    
         <Text
           rounded={"full"}
           px={25}
@@ -20,10 +26,12 @@ export default function Rabbit() {
           position={"absolute"}
           right={"930px"}
           bottom={"-550px"}
-        >
+        >          
+
           발자국에 편지보내기
-        </Text>
-        {/* 발자국에 편지보내기 문구 */}
+          </Text>
+        </Link>
+          {/* 발자국에 편지보내기 문구 */}
       </Stack>
     </Container>
   );
