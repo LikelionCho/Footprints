@@ -14,6 +14,8 @@ import Petdog from "@components/Petdog";
 import music2 from "@assets/hiding.mp3";
 import Rabbit from "@components/Rabbit";
 
+// import "./styles.css";
+
 export default function main() {
   return (
     <Container
@@ -50,6 +52,7 @@ export default function main() {
           <Rabbit></Rabbit>
           <ImageChange></ImageChange>
           <Petdog></Petdog>
+
         </Stack>
       </Stack>
     </Container>

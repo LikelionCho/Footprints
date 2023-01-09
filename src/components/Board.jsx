@@ -2,6 +2,9 @@ import { Container, Stack, Image, Link, Text } from "@chakra-ui/react";
 import board5 from "@assets/board5.png";
 import board7 from "@assets/board7.png";
 import board6 from "@assets/board6.png";
+import { Box } from "@chakra-ui/react";
+import ImageSlider from "./ImageSlider";
+import { SlideData } from "./SlideData";
 
 export default function Board5() {
   return (
@@ -107,6 +110,10 @@ export default function Board5() {
           right={"180px"}
           bottom={"-600px"}
         />
+        <Box w={400} p={4} color="blue" zIndex={"999"} pos={"absolute"} right={"306px"}
+          bottom={"-600px"}>
+          <ImageSlider slides={SlideData} />
+        </Box>
       </Stack>
     </Container>
   );
