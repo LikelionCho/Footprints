@@ -1,5 +1,5 @@
-import { Container, Stack, Image } from "@chakra-ui/react";
-import jincat from "@assets/jincat.png";
+import { Container, Stack, } from "@chakra-ui/react";
+
 
 
 export default function ImageChange() {
