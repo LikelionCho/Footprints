@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
-    "@chakra-ui/react": "^2.4.6",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "@fontsource/inter": "^4.5.14",
     "@fontsource/koho": "^4.5.11",
     "@fontsource/nanum-gothic": "^4.5.7",
@@ -53,5 +53,9 @@
     "babel-plugin-styled-components": "^2.0.7",
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.2.1"
-  }
+  },
+  "description": "## Mr.Cho and other",
+  "main": "config-overrides.js",
+  "author": "",
+  "license": "ISC"
 }

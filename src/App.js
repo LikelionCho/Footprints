@@ -13,6 +13,7 @@ function App() {
     <ChakraProvider theme={theme}>
       <Fonts />
       <Hero />
+      <Hero />
     </ChakraProvider>
   );
 }
